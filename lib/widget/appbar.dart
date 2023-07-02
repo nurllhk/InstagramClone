@@ -3,15 +3,15 @@ import 'package:instagram/class/images.dart';
 import 'package:instagram/class/palet.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class AppBar extends StatelessWidget {
-  const AppBar({
+class AppBarItem extends StatelessWidget {
+  const AppBarItem({
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: Palet.pageHorizontel,
+      padding: Palet.pageHorizontel+Palet.pageVertical,
       height: MediaQuery.of(context).size.height / 20,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
