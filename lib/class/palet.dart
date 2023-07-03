@@ -5,6 +5,7 @@ class Palet {
   static const EdgeInsets storyHorizontel = EdgeInsets.symmetric(horizontal: 5);
   static const EdgeInsets pageVertical = EdgeInsets.symmetric(vertical: 5);
   static const EdgeInsets itemHeigt = EdgeInsets.symmetric(vertical: 30);
+
   static const BorderRadius storyBorder =
       BorderRadius.all(Radius.circular(50.0));
   static const EdgeInsets iconPadding =
