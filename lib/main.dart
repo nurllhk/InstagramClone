@@ -16,6 +16,10 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       title: 'Instagram Clone',
       darkTheme: ThemeData(
+        iconTheme: const IconThemeData(
+          color: Colors.white,
+          size: 25
+        ),
         brightness: Brightness.dark,
         scaffoldBackgroundColor: Colors.black87,
         bottomNavigationBarTheme: const BottomNavigationBarThemeData(
